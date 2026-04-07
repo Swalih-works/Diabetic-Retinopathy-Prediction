@@ -82,7 +82,6 @@ diabetic-retinopathy-prediction/
 - DIABETIC_PROJECT.ipynb
 - P653_pronostico_dataset.csv
 - README.md
-- requirements.txt
 
 ---
 

@@ -78,11 +78,11 @@ Diabetic retinopathy is a leading cause of blindness among diabetic patients. Ea
 
 ## Project Structure
 diabetic-retinopathy-prediction/
-│
-├── DIABETIC_PROJECT.ipynb
-├── P653_pronostico_dataset.csv
-├── README.md
-└──  requirements.txt
+
+- DIABETIC_PROJECT.ipynb
+- P653_pronostico_dataset.csv
+- README.md
+- requirements.txt
 
 ---
 

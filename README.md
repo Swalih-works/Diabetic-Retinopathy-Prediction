@@ -1,97 +1,84 @@
 # Diabetic Retinopathy Prediction using Machine Learning
 
 ## Overview
-This project focuses on predicting whether a patient is likely to develop **diabetic retinopathy** based on medical parameters such as blood pressure and cholesterol levels.
-
-It is a **binary classification problem**, where:
-- `0` → No Retinopathy  
-- `1` → Retinopathy Present  
+This project focuses on predicting **Diabetic Retinopathy**, a diabetes-related eye disease, using machine learning techniques. The goal is to build a classification model that can assist in early detection and improve healthcare decision-making.
 
 ---
 
-## Problem Statement
-Diabetic retinopathy is a leading cause of blindness among diabetic patients. Early prediction using patient health data can help in timely diagnosis and treatment.
+## Objective
+- Analyze healthcare data to identify patterns related to diabetic retinopathy  
+- Build and compare multiple machine learning models  
+- Evaluate model performance using appropriate metrics  
+- Select the best-performing model for prediction  
 
 ---
 
-## Dataset Information
-- Total Records: **6000**
-- Features: **6 columns**
-
-### Features:
-- `Age`
-- `Systolic BP`
-- `Diastolic BP`
-- `Cholesterol`
-- `Prognosis` (Target Variable)
+## Dataset
+- The dataset contains medical and diagnostic features related to patients  
+- Includes multiple input variables and a target variable indicating presence of retinopathy  
+- Data preprocessing was performed to handle inconsistencies and improve quality  
 
 ---
 
-## Tech Stack
+## Technologies Used
 - Python  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Matplotlib  
-- Seaborn  
+- Pandas & NumPy (Data preprocessing)  
+- Matplotlib & Seaborn (Data visualization)  
+- Scikit-learn (Machine Learning models)  
 
 ---
 
-## Workflow
+## Project Workflow
 
 ### 1. Data Preprocessing
-- Handling missing values  
-- Feature scaling  
-- Data cleaning  
+- Handled missing values and cleaned the dataset  
+- Converted categorical variables where necessary  
+- Scaled numerical features for better model performance  
 
 ### 2. Exploratory Data Analysis (EDA)
-- Distribution analysis  
-- Correlation heatmaps  
-- Feature insights  
+- Analyzed feature distributions and relationships  
+- Identified important variables influencing the target  
+- Visualized trends using graphs and plots  
 
 ### 3. Model Building
+The following models were implemented:
 - Logistic Regression  
 - Decision Tree  
 - Random Forest  
 
 ### 4. Model Evaluation
+Models were evaluated using:
 - Accuracy  
 - Precision  
 - Recall  
-- F1-score  
-- ROC-AUC  
+- F1-Score  
+- ROC-AUC Curve  
+- Confusion Matrix  
 
 ---
 
-## Results
-- Compared multiple models to identify the best performer  
-- Evaluated using confusion matrix and ROC curve  
-- Selected the most reliable model based on performance metrics  
+## Results & Insights
+- Compared performance of all models using evaluation metrics  
+- Identified the best-performing model based on recall and overall balance  
+- Tree-based models performed better due to their ability to handle complex relationships  
 
 ---
 
-## Key Insights
-- Blood pressure and cholesterol are key indicators  
-- Machine learning helps in early detection of diabetic complications  
+## Conclusion
+This project demonstrates an end-to-end machine learning pipeline, from data preprocessing to model evaluation. The final model can assist in predicting diabetic retinopathy and highlights the importance of data-driven healthcare solutions.
 
 ---
 
-## Project Structure
-diabetic-retinopathy-prediction/
-
-- DIABETIC_PROJECT.ipynb
-- P653_pronostico_dataset.csv
-- README.md
+## Future Improvements
+- Hyperparameter tuning for improved accuracy  
+- Use of advanced models like XGBoost or Neural Networks  
+- Deployment as a web application for real-time predictions  
 
 ---
 
-## Author
-
-Mohammed Swalih
-🔗 GitHub: https://github.com/Swalih-works
+## Project Link
+ https://github.com/Swalih-works/Diabetic-Retinopathy-Prediction  
 
 ---
 
-## Acknowledgement
-
-This project was developed as part of a data science learning program to understand real-world healthcare prediction problems.
+ If you found this project useful, feel free to star the repository!
